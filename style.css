@@ -1,0 +1,98 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 700px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin: 45px 0px;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.usuarios{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.usuarios .img{
+    max-width: 160px;
+    border-radius: 30px;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 15px;
+}
+
+.img:hover{
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.img:hover ~ a{
+    font-weight: 600;
+}
+
+.usuarios li a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 30px;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+    background-color: rgba(48, 48, 48, 0.315);
+    
+}
+
+.box:hover{
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.box:hover ~ .namePlus{
+    font-weight: 600;
+}
+
+
+.gerenciador{
+    display: flex;
+    justify-content: center;
+}
+
+.gerenciador a{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    border: solid 1px rgb(223, 223, 223);
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.gerenciador a:hover{
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
